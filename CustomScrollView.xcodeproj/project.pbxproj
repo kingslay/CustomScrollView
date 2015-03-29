@@ -13,6 +13,7 @@
 		3C43A12E1AC7A5FF006AA662 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C43A12D1AC7A5FF006AA662 /* Images.xcassets */; };
 		3C43A1311AC7A5FF006AA662 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C43A12F1AC7A5FF006AA662 /* LaunchScreen.xib */; };
 		3C43A13D1AC7A5FF006AA662 /* CustomScrollViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C43A13C1AC7A5FF006AA662 /* CustomScrollViewTests.swift */; };
+		3C43A1491AC7A64C006AA662 /* CustomScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C43A1481AC7A64C006AA662 /* CustomScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		3C43A1361AC7A5FF006AA662 /* CustomScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C43A13B1AC7A5FF006AA662 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C43A13C1AC7A5FF006AA662 /* CustomScrollViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomScrollViewTests.swift; sourceTree = "<group>"; };
+		3C43A1481AC7A64C006AA662 /* CustomScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				3C43A12D1AC7A5FF006AA662 /* Images.xcassets */,
 				3C43A12F1AC7A5FF006AA662 /* LaunchScreen.xib */,
 				3C43A1241AC7A5FF006AA662 /* Supporting Files */,
+				3C43A1481AC7A64C006AA662 /* CustomScrollView.swift */,
 			);
 			path = CustomScrollView;
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 			files = (
 				3C43A1291AC7A5FF006AA662 /* ViewController.swift in Sources */,
 				3C43A1271AC7A5FF006AA662 /* AppDelegate.swift in Sources */,
+				3C43A1491AC7A64C006AA662 /* CustomScrollView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
